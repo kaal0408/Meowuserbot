@@ -3,4 +3,4 @@
 import os
 
 ENV = bool(os.environ.get("ENV", False))
-from userbot.Config import Config
+from Meowbot.Config import Config
