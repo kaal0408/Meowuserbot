@@ -9,7 +9,7 @@ class Config(object):
     ABUSE = os.environ.get("ABUSE", None)
     ALIVE_MSG = os.environ.get("ALIVE_MSG", "⚡ ʟɛɢɛռɖaʀʏ ᴀғ ʍɛօաɮօȶ ⚡")
     ALIVE_PIC = os.environ.get(
-        "ALIVE_PIC", "https://telegra.ph/file/f62e50245639f24fd955b.jpg"
+        "ALIVE_PIC", "https://telegra.ph/file/3c2932815330a143fa1a8.png"
     )
     ANTI_FLOOD_WARN_MODE = ChatBannedRights(
         until_date=None, view_messages=None, send_messages=True
@@ -84,7 +84,7 @@ class Config(object):
         PM_LOG_ID = int(PM_LOG_ID)
     PM_PERMIT = os.environ.get("PM_PERMIT", "ENABLE")
     PMPERMIT_PIC = os.environ.get(
-        "PMPERMIT_PIC", "https://telegra.ph/file/73e95f4325159336766c0.jpg"
+        "PMPERMIT_PIC", "https://telegra.ph/file/3c2932815330a143fa1a8.png"
     )
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
     SCREEN_SHOT_LAYER_ACCESS_KEY = os.environ.get("SCREEN_SHOT_LAYER_ACCESS_KEY", None)
@@ -100,7 +100,7 @@ class Config(object):
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/TeamMew/MeowBot"
+        "UPSTREAM_REPO", "https://github.com/kaal0408/MeowBot"
     )
     WEATHER_API = os.environ.get("WEATHER_API", None)
     YOUR_NAME = os.environ.get("YOUR_NAME", None)
