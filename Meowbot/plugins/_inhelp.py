@@ -190,11 +190,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 title="Repository",
                 text=f"**✨ ʟɛɢɛռ∂ѕ σf мєσω ✨**",
                 buttons=[
-                    [Button.url("📑 Repo 📑", "https://github.com/Mdnoor786/Meow")],
+                    [Button.url("📑 Repo 📑", "https://github.com/kaal0408/Meowuserbot")],
                     [
                         Button.url(
                             "🚀 Deploy 🚀",
-                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamMew%2FMeowBot&template=https%3A%2F%2Fgithub.com%2FTeamMew%2Fmewbot",
+                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkaal0408%2FMeowBot&template=https%3A%2F%2Fgithub.com%2Fkaal0408%2Fmewbot",
                         )
                     ],
                 ],
@@ -211,16 +211,16 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
         else:
             result = builder.article(
-                "@Its_MeowBot",
-                text="""**Hey! This is [ℳêøաɮøƚ](https://t.me/Its_Meowbot) \nYou can know more about me from the links given below 👇**""",
+                "@Meow_userbot",
+                text="""**Hey! This is [ℳêøաɮøƚ](https://t.me/Meow_userbot) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🌺 CHANNEL 🌺", "https://t.me/Its_MeowBot"),
-                        custom.Button.url("⚡ GROUP ⚡", "https://t.me/MeowUbChat"),
+                        custom.Button.url("🌺 CHANNEL 🌺", "https://t.me/LuciferXupdates"),
+                        custom.Button.url("⚡ GROUP ⚡", "https://t.me/Meow_userbot"),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/TeamMew/MeowBot"
+                            "✨ REPO ✨", "https://github.com/kaal0408/MeowBot"
                         ),
                         custom.Button.url(
                             "🖍️ TUTORIAL 🖍️", "https://youtu.be/M2FQJq_sHp4"
