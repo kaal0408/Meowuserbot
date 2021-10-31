@@ -1,5 +1,4 @@
 import asyncurban
-from PyDictionary import PyDictionary
 
 from . import *
 
