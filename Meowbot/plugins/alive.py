@@ -14,7 +14,7 @@ alive_c += f"┣⧼• тεℓεтнση  ⊱  `[version](1.0)\n"
 alive_c += f"┣⧼• мεσω        ⊱  __**{mew_ver}**__\n"
 alive_c += f"┣⧼• sυ∂σ           ⊱ `{is_sudo}`\n"
 alive_c += f"┣⧼• cнαηηεℓ     ⊱  {mew_channel}\n"
-alive_c += f"┣⧼• ℓιcεηsε     ⊱ [Meow](GitHub.com/TeamMew)\n"
+alive_c += f"┣⧼• ℓιcεηsε     ⊱ (Meow)[GitHub.com/TeamMew]\n"
 alive_c += f"┣⧼• υρтιмε      ⊱ `{uptime}`\n"
 alive_c += f"┗━━━━━━━━━━━━━━━━━━━\n"
 # -------------------------------------------------------------------------------
