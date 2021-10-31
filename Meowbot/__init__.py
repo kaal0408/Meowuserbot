@@ -11,7 +11,7 @@ from requests import get
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-from .var import Config 
+from Meowbot.var import Config 
 from var import Var
 StartTime = datetime.datetime.now()
 
