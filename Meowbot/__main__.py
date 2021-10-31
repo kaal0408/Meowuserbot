@@ -61,7 +61,7 @@ LOGS.info("Starting Bot Mode !")
 tbot.start()
 LOGS.info("⚡ Your MeowBot Is Now Working ⚡")
 LOGS.info(
-    "Head to @Its_MeowBot for Updates. Also join chat group to get help regarding to MeowBot."
+    "Head to @Meow_userbot for Updates. Also join chat group to get help regarding to MeowBot."
 )
 
 # that's life...
@@ -71,14 +71,14 @@ async def mew_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 MEOW_PIC,
-                caption=f"#START \n\nDeployed ℳêøաɮøƚ Successfully\n\n**ℳêøաɮøƚ - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [ℳêøաɮøƚ Channel](t.me/Its_MeowBot) for Updates & [ℳêøաɮøƚ Chat](t.me/MeowUbChat) for any query regarding ℳêøաɮøƚ",
+                caption=f"#START \n\nDeployed ℳêøաɮøƚ Successfully\n\n**ℳêøաɮøƚ - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [ℳêøաɮøƚ Channel](t.me/LuciferXupdates) for Updates & [ℳêøաɮøƚ Chat](t.me/Meow_userbot) for any query regarding ℳêøաɮøƚ",
             )
     except Exception as e:
         LOGS.info(str(e))
 
     # Join MeowBot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Its_MeowBot"))
+        await bot(JoinChannelRequest("@LuciferXupdates"))
     except BaseException:
         pass
 
