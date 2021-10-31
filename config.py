@@ -1,5 +1,5 @@
 
-from userbot.Config import Config
+from mew_config import Config
 
 class Development(Config):
   # get these values from my.telegram.org. 
