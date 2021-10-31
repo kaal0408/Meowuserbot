@@ -6,8 +6,8 @@ from . import *
 msg = f"""
 **⚡ ʟɛɢɛռɖaʀʏ ᴀғ ʍɛօաɮօȶ ⚡**
 
-  •        [📑 Repo 📑](https://github.com/TeamMew/MeowBot)
-  •        [🚀 Deploy 🚀](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTeamMew%2FMeowBot&template=https%3A%2F%2Fgithub.com%2FTeamMew%2Fmewbot)
+  •        [📑 Repo 📑](https://github.com/kaal0408/MeowBot)
+  •        [🚀 Deploy 🚀](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fkaal0408%2FMeowBot&template=https%3A%2F%2Fgithub.com%2Fkaal0408%2Fmewbot)
 
   •  ©️ {mew_channel} ™
 """
