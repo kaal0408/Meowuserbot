@@ -10,7 +10,7 @@ import os
 from telethon.tl.types import ChatBannedRights
 
 
-class Config(object):
+class Development(Config):
     LOGGER = True
     ABUSE = os.environ.get("ABUSE", None)
     ALIVE_MSG = os.environ.get("ALIVE_MSG", "⚡ ʟɛɢɛռɖaʀʏ ᴀғ ʍɛօաɮօȶ ⚡")
