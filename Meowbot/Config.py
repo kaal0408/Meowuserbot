@@ -73,8 +73,8 @@ class Config(object):
     MAX_MESSAGE_SIZE_LIMIT = 4095
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
     MONGO_URI = os.environ.get("MONGO_URI", None)
-    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "Its_MeowBot")
-    MY_GROUP = os.environ.get("YOUR_GROUP", "MeowUbChat")
+    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "LuciferXUpdates")
+    MY_GROUP = os.environ.get("YOUR_GROUP", "Meow_userbot")
     OCR_API = os.environ.get("OCR_API", None)
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", None)
     if PLUGIN_CHANNEL:
