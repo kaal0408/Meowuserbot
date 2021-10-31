@@ -20,7 +20,6 @@ shhh = "./Meowbot/resources/pics/chup_madarchod.jpeg"
 hl = Config.HANDLER
 shl = Config.SUDO_HANDLER
 mew_ver = __mew__
-tel_ver = __version__
 
 
 async def get_user_id(ids):
