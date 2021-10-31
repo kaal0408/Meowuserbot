@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from requests import get
 from telethon import TelegramClient
 from telethon.sessions import StringSession
+from .vars import Config
 from Meowbot.config import Config
 StartTime = datetime.datetime.now()
 
