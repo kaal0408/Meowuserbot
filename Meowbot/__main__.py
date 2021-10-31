@@ -7,7 +7,7 @@ from telethon import TelegramClient
 from telethon.tl.functions.channels import JoinChannelRequest
 
 from Meowbot import LOGS, bot, tbot
-from Meowbot.config import Config
+from .Config import Config
 from Meowbot.utils import load_module
 from Meowbot.version import __mew__ as mewver
 
@@ -54,22 +54,6 @@ for name in files:
         path1 = Path(f.name)
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
-
-# Extra Modules...
-# extra_repo = Config.EXTRA_REPO or "https://github.com/TeamMew/Extra"
-# if Config.EXTRA == "True":
-#     try:
-#         os.system(f"git clone {extra_repo}")
-#     except BaseException:
-#         pass
-#     LOGS.info("Installing Extra Plugins")
-#     path = "Meowbot/plugins/*.py"
-#     files = glob.glob(path)
-#     for name in files:
-#         with open(name) as ex:
-#             path2 = Path(ex.name)
-#             shortname = path2.stem
-#             load_module(shortname.replace(".py", ""))
 
 
 # let the party begin...
