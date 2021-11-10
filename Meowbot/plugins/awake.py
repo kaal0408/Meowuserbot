@@ -20,7 +20,7 @@ mew_pic = Config.ALIVE_PIC or "https://telegra.ph/file/3c2932815330a143fa1a8.png
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
-ALIVE_MESSAGE = "Meow is online"
+   ALIVE_MESSAGE = "Meow is online"
    ALIVE_MESSAGE = "**🔱Meow Meowbot IS Awake🔱 \n\n\n**"
    ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
    ALIVE_MESSAGE += f"`Telethon: TELETHON-1.19.0 \n\n`"
