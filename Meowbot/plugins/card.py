@@ -1,4 +1,4 @@
-r
+
 from faker import Faker as dc
 from Meowbot.utils import admin_cmd as hehe
 from Meowbot import bot as meow
