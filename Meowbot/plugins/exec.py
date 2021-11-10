@@ -9,7 +9,6 @@ from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotMo
 import io
 import asyncio
 import time
-from uniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="exec ?(.*)"))
