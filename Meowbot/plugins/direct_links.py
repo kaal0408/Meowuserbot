@@ -15,8 +15,8 @@ from random import choice
 from bs4 import BeautifulSoup
 from humanize import naturalsize
 
-from userbot import CMD_HELP
-from userbot.events import register
+from Meowbot import CMD_HELP
+from Meowbot.events import register
 
 
 def subprocess_run(cmd):
