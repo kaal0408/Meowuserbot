@@ -8,7 +8,7 @@ from telegraph import Telegraph
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from Meowbot import CMD_HELP
-from Meowbot.utils import admin_cmd
+
 from var import Var
 telegraph = Telegraph()
 mee = telegraph.create_account(short_name="yohohehe")
