@@ -2,7 +2,6 @@ import asyncio
 from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
-from Meowbot.utils import admin_cmd
 import Meowbot.sql_helper.antiflood_sql as sql
 import Meowbot.utils
 from Meowbot.utils import humanbytes, progress, time_formatter
