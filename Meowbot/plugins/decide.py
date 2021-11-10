@@ -2,7 +2,6 @@
 Syntax: .decide"""
 from telethon import events
 import requests
-from Meowbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd("decide"))
