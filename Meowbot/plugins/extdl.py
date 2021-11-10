@@ -24,7 +24,7 @@ from telethon import events
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
 from Meowbot.utils import command, remove_plugin, load_module
-from Var import Var
+from Var import var
 from pathlib import Path
 from Meowbot import LOAD_PLUG
 import sys
