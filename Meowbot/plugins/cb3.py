@@ -6,7 +6,6 @@ from Meowbot import CMD_HELP
 #MADE BY SHIVAM DONT KANG
 from telegraph import upload_file
 from telethon.tl.types import MessageMediaPhoto
-from Meowbot.utils import admin_cmd
 from Meowbot import bot 
 from Meowbot import bot as borg
 import os , shutil
