@@ -4,7 +4,6 @@ import math
 from vcam import vcam,meshGen
 import sys
 import os
-from Meowbot.utils import admin_cmd
 from Meowbot import bot 
 if not os.path.isdir("./dco/"):
     os.makedirs("./dco/")
