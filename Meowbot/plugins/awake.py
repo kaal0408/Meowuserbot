@@ -17,9 +17,6 @@ from platform import python_version, uname
 
 
 mew_pic = Config.ALIVE_PIC or "https://telegra.ph/file/3c2932815330a143fa1a8.png"
-
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-
 alive_c = f"Meow is online"
 alive_c = "**🔱Meow Meowbot IS Awake🔱 \n\n\n**"
 alive_c += "`My Bot Status \n\n\n`"
