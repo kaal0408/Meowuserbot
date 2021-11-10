@@ -3,7 +3,6 @@ Syntax: .meaning <word>"""
 
 import requests
 from telethon import events
-from uniborg.util import admin_cmd
 
 
 @borg.on(admin_cmd("meaning (.*)"))
@@ -32,7 +31,7 @@ async def _(event):
             event.chat_id,
             pronounciation,
             caption=f"Pronounciation of __{input_str}__",
-            force_document=False,
+            force_document=False, 
             reply_to=reply_msg_id,
             allow_cache=True,
             voice_note=True,
