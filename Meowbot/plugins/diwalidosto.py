@@ -6,7 +6,6 @@ from telethon import events
 
 import asyncio
 from Meowbot import CMD_HELP
-from Meowbot.utils import admin_cmd
 
 @borg.on(admin_cmd("hdd"))
 async def _(event):
