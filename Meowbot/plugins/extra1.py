@@ -14,8 +14,6 @@ from telethon import events
 
 import asyncio
 
-from Meowbot.utils import admin_cmd
-
 
 
 
