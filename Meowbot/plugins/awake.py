@@ -24,7 +24,7 @@ alive_c += f"`Telethon: TELETHON-1.19.0 \n\n`"
 alive_c += f"`Python: PYTHON-3.8.5 \n\n`"
 alive_c += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
 alive_c += f"`Support Channel` : @Murat_30_God \n\n"
-alive_c += f"`MY BOSS🤗`: {Manjeet singh} \n\n "
+alive_c += f"`MY BOSS🤗`: Manjeet singh \n\n "
                 
             
 #@command(outgoing=True, pattern="^.awake$")
