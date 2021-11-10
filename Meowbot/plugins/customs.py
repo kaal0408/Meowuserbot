@@ -1,4 +1,4 @@
-from Meowbot.utils import admin_cmd
+
 from Meowbot import CMD_HELP
 from Meowbot import bot
 
