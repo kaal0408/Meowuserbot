@@ -12,7 +12,6 @@ Available Commands:
 from telethon import events
 import asyncio
 from collections import deque
-from uniborg.util import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"candy"))
 async def _(event):
