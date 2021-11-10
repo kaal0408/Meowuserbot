@@ -5,10 +5,6 @@ import asyncio
 
 
 from Meowbot import CMD_HELP
-from Meowbot import AUTONAME
-
-
-DEFAULTUSER = str(AUTONAME) if AUTONAME else "Meow-User"
 
 @borg.on(admin_cmd(pattern=r"deploy"))
 
