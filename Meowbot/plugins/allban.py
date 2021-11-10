@@ -2,7 +2,6 @@
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
 from telethon.tl.functions.channels import EditBannedRequest
-from Meowbot.utils import admin_cmd
 from Meowbot import bot
 
 
