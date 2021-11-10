@@ -1,4 +1,4 @@
-from pokedex import pokedex as badhiya
+
 import os
 import shutil
 from re import findall
