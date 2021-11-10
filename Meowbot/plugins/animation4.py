@@ -1,6 +1,5 @@
 
 from telethon import events
-from Meowbot.utils import admin_cmd
 from Meowbot import ALIVE_NAME, CMD_HELP
 from collections import deque
 import importlib.util
