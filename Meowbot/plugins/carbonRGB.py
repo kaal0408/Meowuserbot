@@ -13,7 +13,6 @@ from time import sleep
 import asyncio
 import os
 import random
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 
 #@borg.on(events.NewMessage(pattern=r"\.karb ", outgoing=True))
