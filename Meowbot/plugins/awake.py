@@ -15,7 +15,7 @@ from telethon import events, errors, custom
 import io
 from platform import python_version, uname
 
-ALIVE_PIC = Config.ALIVE_PHOTTO
+ALIVE_PIC = Config.ALIVE_PIC
 if ALIVE_PIC is None:
    ALIVE_PIC = "https://telegra.ph/file/76c3bbeaceb68db2b526b.jpg"
 
