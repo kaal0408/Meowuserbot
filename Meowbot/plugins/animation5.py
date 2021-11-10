@@ -1,12 +1,12 @@
 from telethon import events
 import random, re, asyncio
-from Meowbot import ALIVE_NAME, CMD_HELP
+
 from Meowbot import CMD_HELP
 from collections import deque
 import importlib.util
 from platform import uname
 from telethon.tl.types import ChannelParticipantsAdmins
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Cat"
+
 
 
 
