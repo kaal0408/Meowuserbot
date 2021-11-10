@@ -4,7 +4,6 @@
 
 from telethon import events
 from telethon.tl.functions.messages import SaveDraftRequest
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="chain"))
