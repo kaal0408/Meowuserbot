@@ -4,7 +4,6 @@
 from telethon import events
 import asyncio
 from collections import deque
-from Meowbot.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern=r"clock"))
