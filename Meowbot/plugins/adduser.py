@@ -2,7 +2,6 @@
 Syntax: .edd <User(s)>"""
 
 from telethon import functions
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="edd ?(.*)"))
