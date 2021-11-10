@@ -1,5 +1,4 @@
 from telethon import events
-from Meowbot.utils import admin_cmd
 import random, re, asyncio
 from Meowbot import ALIVE_NAME, CMD_HELP
 from Meowbot import CMD_HELP
