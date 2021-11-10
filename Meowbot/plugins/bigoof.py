@@ -3,7 +3,6 @@ from telethon import events
 
 import asyncio
 
-from Meowbot.utils import admin_cmd
 
 @borg.on(admin_cmd("bigoof"))
 async def _(event):
