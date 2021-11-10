@@ -5,7 +5,6 @@ import traceback
 import asyncio
 import sys
 import io
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="calc"))
