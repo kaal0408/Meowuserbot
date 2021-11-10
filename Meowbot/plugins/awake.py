@@ -15,10 +15,8 @@ from telethon import events, errors, custom
 import io
 from platform import python_version, uname
 
-ALIVE_PIC = Config.ALIVE_PIC
-if ALIVE_PIC is None:
-   ALIVE_PIC = "https://telegra.ph/file/76c3bbeaceb68db2b526b.jpg"
 
+mew_pic = Config.ALIVE_PIC or "https://telegra.ph/file/3c2932815330a143fa1a8.png"
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
