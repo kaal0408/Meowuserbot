@@ -8,7 +8,6 @@ import traceback
 import asyncio
 import sys
 import io
-from Meowbot.utils import admin_cmd, sudo_cmd, edit_or_reply 
 from Meowbot import CMD_HELP
 
 @bot.on(admin_cmd("eval"))
