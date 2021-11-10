@@ -2,7 +2,6 @@
 import os
 from telethon import events
 from telethon.tl import functions
-from Meowbot.utils import admin_cmd, sudo_cmd
 from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
 from telethon.errors.rpcerrorlist import (PhotoExtInvalidError,
                                           UsernameOccupiedError)
