@@ -8,7 +8,7 @@ Available Commands:
 .rmblacklist"""
 import asyncio
 import re
-import Meowbot.plugins.sql_helper.blacklist_sql as sql
+import Meowbot.sql_helper.blacklist_sql as sql
 from telethon import events, utils
 from telethon.tl import types, functions
 from Meowbot.utils import admin_cmd
