@@ -4,7 +4,6 @@ import re
 import json
 import asyncio
 from Meowbot import CMD_HELP
-from Meowbot.utils import admin_cmd
 
 async def callAPI(search_str):
     query = '''
