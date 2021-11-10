@@ -1,31 +1,33 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+from telethon import events
 from telethon.tl.functions.messages import SaveDraftRequest
+from Meowbot.utils import admin_cmd
+from Meowbot import CMD_HELP
 
-from . import *
-
-
-@bot.on(mew_cmd(pattern="chain$"))
-@bot.on(sudo_cmd(pattern="chain$", allow_sudo=True))
+@borg.on(admin_cmd(pattern="chain"))
 async def _(event):
-    if event.fwd_from:
-        return
-    Meow = await eor(event, "Counting...")
+    await event.edit("Counting...")
     count = -1
     message = event.message
     while message:
         reply = await message.get_reply_message()
         if reply is None:
-            await event.client(
-                SaveDraftRequest(
-                    await event.get_input_chat(), "", reply_to_msg_id=message.id
-                )
-            )
+            await borg(SaveDraftRequest(
+                await event.get_input_chat(),
+                "",
+                reply_to_msg_id=message.id
+            ))
         message = reply
         count += 1
-    await Meow.edit(f"⛓️ **Chain length :**  `{count}`")
+    await event.edit(f"Chain length: {count}")
 
 
-CmdHelp("chain").add_command(
-    "chain",
-    "Reply to a message",
-    "Reply this command to any msg so that it finds chain length of that msg",
-).add_info("Chained Messages.").add_warning("✅ Harmless Module.").add()
+CMD_HELP.update(
+    {
+        "chain": 
+    ".chain <reply to any msg> "
+    "\nCount the chain length means the reply-reply how many times 😂😂"
+    })
