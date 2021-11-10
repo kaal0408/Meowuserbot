@@ -6,8 +6,6 @@ import os
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from Meowbot import ALIVE_NAME, CMD_HELP
-from Meowbot.utils import admin_cmd
 from telethon import version
 from math import ceil
 import json
