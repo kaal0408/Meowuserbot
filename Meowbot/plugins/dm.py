@@ -4,7 +4,6 @@ import os
 import re
 from telethon import *
 from Meowbot import bot
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 #Fixed by @NOOBGeng Second Member
 @borg.on(admin_cmd(pattern="dm ?(.*)"))
