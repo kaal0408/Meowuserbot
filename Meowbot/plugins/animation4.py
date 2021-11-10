@@ -1,18 +1,8 @@
 
-from telethon import events
-from Meowbot import ALIVE_NAME, CMD_HELP
+import asyncio
 from collections import deque
-import importlib.util
-import random, re, asyncio
-from Meowbot.utils import admin_cmd 
-from Meowbot import ALIVE_NAME
-from Meowbot import CMD_HELP
-import os
-import sys
-import logging
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MY OWNER"
 
-
+from . import *
 @borg.on(admin_cmd("bigoof"))
 async def _(event):
     if event.fwd_from:
