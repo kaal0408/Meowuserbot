@@ -15,7 +15,6 @@ from datetime import datetime
 
 from gtts import gTTS
 from Meowbot import CMD_HELP
-from Meowbot.utils import admin_cmd
 
 
 
