@@ -1,11 +1,10 @@
 import PIL
-from Meowbot.utils import admin_cmd
 from Meowbot import CMD_HELP
 # ascii characters used to build the output text
 import pygments, os, asyncio
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from Meowbot.utils import admin_cmd
+
 from Meowbot import bot
 from Meowbot import bot as borg
 @bot.on(admin_cmd(pattern="art ?(.*)", outgoing=True))
