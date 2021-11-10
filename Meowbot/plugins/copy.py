@@ -1,6 +1,5 @@
 
 from telethon import events
-from uniborg.util import admin_cmd
 from Meowbot import CMD_HELP
 
 @borg.on(admin_cmd(pattern="copy"))
