@@ -71,7 +71,7 @@ async def mew_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 MEOW_PIC,
-                caption=f"#START \n\nDeployed ℳêøաɮøƚ Successfully\n\n**ℳêøաɮøƚ - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [ℳêøաɮøƚ Channel](t.me/Murat_30_God) for Updates & [ℳêøաɮøƚ Chat](t.me/MeowUserbot) for any query regarding ℳêøաɮøƚ",
+                caption=f"#START \n\nDeployed ℳêøաɮøƚ Successfully\n\n**ℳêøաɮøƚ - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [ℳêøաɮøƚ Channel](t.me/Murat_30_God) for Updates & [ℳêøաɮøƚ Chat](t.me/MeowUserbot) & also join off topic group [Friends](t.me/Friends3003) & quiz group [quiz](t.me/Science_in_hindi_study_group) for any query regarding ℳêøաɮøƚ",
             )
     except Exception as e:
         LOGS.info(str(e))
