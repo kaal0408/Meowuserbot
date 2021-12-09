@@ -44,8 +44,8 @@ else:
 
 START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
-my_channel = Config.MY_CHANNEL or "LuciferXupdates"
-my_group = Config.MY_GROUP or "Meow_userbot"
+my_channel = Config.MY_CHANNEL or "Murat_30_God"
+my_group = Config.MY_GROUP or "Meowuserbot"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
