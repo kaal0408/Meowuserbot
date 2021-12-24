@@ -92,14 +92,14 @@ async def mew_is_on():
 
 # Join MeowBot Chatting after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@PikachuX_Support"))
+        await bot(JoinChannelRequest("@Panthersupport"))
     except BaseException:
         pass
 
 
 # Why not come here and chat??
 #    try:
-#        await bot(JoinChannelRequest("@PikachuX_logs"))
+#        await bot(JoinChannelRequest("@its_Panther"))
 #    except BaseException:
 #        pass
 
