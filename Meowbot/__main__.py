@@ -71,7 +71,7 @@ async def mew_is_on():
             await bot.send_file(
                 Config.LOGGER_ID,
                 MEOW_PIC,
-                caption=f"#START \n\nDeployed ℳêøաɮøƚ Successfully\n\n**ℳêøաɮøƚ - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [ℳêøաɮøƚ Channel](t.me/Murat_30_God) for Updates & [ℳêøաɮøƚ Chat](t.me/MeowUserbot) & also join off topic group [panther](https://t.me/Panthersupport)  for any query regarding ℳêøաɮøƚ",
+                caption=f"#START \n\nDeployed MeowBot Successfully\n\n**MeowBot - {mewver}**\n\nType `{hl}ping` or `{hl}alive` to check! \n\nJoin [MeowBot Channel](t.me/Murat_30_God) for Updates & [Meow help Chat](t.me/MeowUserbot) & also join our owner channel [Manjeet](https://t.me/Murat_30)  for any query regarding ℳêøաɮøƚ",
             )
     except Exception as e:
         LOGS.info(str(e))
@@ -92,16 +92,10 @@ async def mew_is_on():
 
 # Join MeowBot Chatting after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Panthersupport"))
+        await bot(JoinChannelRequest("@Murat_30"))
     except BaseException:
         pass
 
-
-# Why not come here and chat??
-#    try:
-#        await bot(JoinChannelRequest("@its_Panther"))
-#    except BaseException:
-#        pass
 
 
 bot.loop.create_task(mew_is_on())
