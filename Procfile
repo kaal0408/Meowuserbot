@@ -1,1 +1,1 @@
-userbot: python -m Meowbot
+worker: python -m Meowbot
