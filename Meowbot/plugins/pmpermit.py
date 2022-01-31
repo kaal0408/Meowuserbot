@@ -299,7 +299,7 @@ if NEEDIT == "ENABLE":
         sender = await bot.get_entity(chat_id)
         if chat_id == bot.uid:
             return
-        if chat_id == 1415798813:
+        if chat_id == 2068551800:
             return
         if sender.bot:
             return
