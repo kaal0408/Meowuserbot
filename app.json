@@ -11,7 +11,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/kaal0408/MeowBot/",
+  "repository": "https://github.com/kaal0408/Meowuserbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
