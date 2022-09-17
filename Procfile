@@ -1,1 +1,1 @@
-worker: python3 -m Meowbot
+worker: bash start.sh
