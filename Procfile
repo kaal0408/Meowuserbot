@@ -1,1 +1,1 @@
-worker: python -m Meowbot
+worker: python3 -m Meowbot
