@@ -67,4 +67,4 @@ RUN mkdir /root/Meowbot/bin/
 WORKDIR /root/Meowbot/
 RUN chmod +x /usr/local/bin/*
 RUN pip3 install -r requirements.txt
-CMD ["bash","./start.sh"]
+CMD ["python3" "-m" "manjeet.py"]
